@@ -1,6 +1,6 @@
-import React from "react";
-import saadi from "../../assets/img/saadi.jpg";
+import { Data } from '../../constants/data';
 const Home = () => {
+  const content = Data[0]
   return (
     <div
       style={{
@@ -11,21 +11,31 @@ const Home = () => {
       }}
     >
       <img
-        src={saadi}
+        src={content.img}
         alt="saadi"
         style={{
           borderRadius: "50%",
           width: "50%",
           height: "auto",
-          marginTop:"20px"
+          marginTop: "20px",
         }}
       />
-      <div style={{ color: "white" }}>
-        سعدیا مرد نکونام نمیرد هرگز مرده آنست که نامش به نکویی نبرند
+      <div style={{
+        margin: '0 auto',
+      }}>
+        <div
+          style={{
+            color: "white",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <div>{content.m1}</div>
+          <div style={{width:"20px"}}></div>
+          <div>{content.m2}</div>
+        </div>
       </div>
-      <div>
-        saadi, man with good reputation never dies, dead man is a person who people don't mention him/her as a good person
-      </div>
+      <div>{content.eng}</div>
     </div>
   );
 };
