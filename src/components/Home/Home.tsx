@@ -8,11 +8,6 @@ const Home = () => {
         backgroundColor: "grey",
         height: "100%",
         position: "fixed",
-        // backgroundImage: `url(${saadi})`,
-        // backgroundRepeat: "no-repeat",
-        // backgroundSize: "contain",
-        // borderRadius: "50%",
-        // backgroundPosition: "center",
       }}
     >
       <img
