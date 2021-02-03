@@ -5,7 +5,7 @@ const Home = () => {
     <div
       style={{
         width: "100%",
-        backgroundColor: "black",
+        backgroundColor: "grey",
         height: "100%",
         position: "fixed",
         // backgroundImage: `url(${saadi})`,
@@ -22,9 +22,15 @@ const Home = () => {
           borderRadius: "50%",
           width: "50%",
           height: "auto",
+          marginTop:"20px"
         }}
       />
-      <div style={{ color: "white" }}>سعدیا مرد نکونام نمیرد هرگز</div>
+      <div style={{ color: "white" }}>
+        سعدیا مرد نکونام نمیرد هرگز مرده آنست که نامش به نکویی نبرند
+      </div>
+      <div>
+        saadi, man with good reputation never dies, dead man is a person who people don't mention him/her as a good person
+      </div>
     </div>
   );
 };
