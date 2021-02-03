@@ -28,6 +28,7 @@ const Home = () => {
             color: "white",
             display: "flex",
             justifyContent: "center",
+            direction:'rtl'
           }}
         >
           <div>{content.m1}</div>
